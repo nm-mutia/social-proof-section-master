@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  width: 1440px;
+  position: relative;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.875rem;
+}
+h1{
+  color: #502050;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.bg-top{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bg-btm{
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.title-section{
+  display: inline-block;
+  width: 450px;
+  height: 250px;
+  margin: 120px 0 0 160px;
+}
+.title-section p{
+  color: #937B92;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.rate-section{
+  color: #502050;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.875rem;
+  width: 550px;
+  height: 250px;
+  margin: 120px 160px 0 120px;
+  position: absolute;
+}
+.first-star{
+  margin-left: 1rem;
+}
+.rate-1{
+  background-color: #F7F2F7;
+  width: 75%;
+  margin: 10px 0 20px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.rate-1 p{
+  display: inline;
+  margin-left: 20px;
+}
+.rate-2{
+  background-color: #F7F2F7;
+  border-radius: 10px;
+  margin: 0 0 20px 50px;
+  width: 75%;
+  padding: 1rem;
+}
+.rate-2 p{
+  display: inline;
+  margin-left: 20px;
+}
+.rate-3{
+  background-color: #F7F2F7;
+  margin: 0 0 20px 100px;
+  width: 75%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.rate-3 p{
+  display: inline;
+  margin-left: 20px;
+}
+.comment-section-all{
+  position: relative;
+  margin: 40px 160px 0;
+  height: 300px;
+}
+.comment-section{
+  font-size: 0.875rem;
+  position: absolute;
+  background-color: #502050;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 320px;
+  height: 220px;
+  padding: 15px;
+  line-height: 1.5;
+}
+.comment-section img{
+  border-radius: 100%;
+  float: left;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+.name{
+  font-weight: 500;
+  margin-top: 25px;
+}
+.tag{
+  display: block;
+  font-weight: 400;
+  color: #EE68A4;
+}
+.comment{
+  margin: 30px 20px 50px;
+  display: block;
+  font-weight: 400;
+}
+.attribution{
+  margin: 10px 160px 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+#cs1{
+  margin: 0 20px 0 0;
+}
+#cs2{
+  margin: 20px 20px 0 380px;
+}
+#cs3{
+  margin: 40px 20px 0 760px;
+}
